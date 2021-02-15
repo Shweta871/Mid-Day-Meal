@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.pastrecords.PastRecords">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:text="@string/past_records"
+            android:textAllCaps="true"
+            android:fontFamily="@font/raleway_semibold"
+            android:textSize="20sp"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/dateLayout"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:text=""
+            android:textAllCaps="true"
+            android:fontFamily="@font/raleway_semibold"
+            android:textSize="20sp"
+            />
+        <ImageView
+            android:id="@+id/datebutton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:elevation="10dp"
+            android:scaleType="centerCrop"
+            android:textColor="@color/colorBlack"
+            android:background="@drawable/ic_arrow_drop_down_or_24dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/staticLayout"
+        android:layout_below="@+id/dateLayout"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/reporttxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:text="@string/feed_item_sample_string3"
+            android:fontFamily="@font/raleway_semibold"
+            android:textSize="@dimen/txtsize_18sp"
+            />
+
+        <TextView
+            android:id="@+id/reporttxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:text="@string/feed_item_sample_string2"
+            android:fontFamily="@font/raleway_semibold"
+            android:textSize="@dimen/txtsize_18sp"
+            />
+
+    </LinearLayout>
+
+    <View android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:id="@+id/horizontalView"
+        android:layout_below="@+id/staticLayout"
+        android:layout_height="0.5dp" android:background="@color/colorPrimary">
+
+    </View>
+
+
+    <LinearLayout
+        android:padding="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:layout_below="@+id/horizontalView"
+        android:id="@+id/reportsLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/reporttxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:text="@string/reports"
+            android:textAllCaps="true"
+            android:fontFamily="@font/raleway_semibold"
+            android:textSize="@dimen/txtsize_22sp"
+            />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:id="@+id/discrepancyRV"
+        android:layout_below="@+id/reportsLayout"
+        tools:listitem="@layout/fragment_item_past_records_feed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/sendAlert"
+            android:text="@string/send_alert"
+            android:textColor="@color/colorBlack"
+            android:elevation="5dp"
+            android:fontFamily="@font/raleway_semibold"
+            android:background="@drawable/done_button_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

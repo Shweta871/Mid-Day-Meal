@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="splash_icon_hw">150dp</dimen>
+    <dimen name="splash_home_txt">20sp</dimen>
+    <dimen name="poweredby_txtsize_12sp">12sp</dimen>
+    <dimen name="signup_innercontainer_height">400dp</dimen>
+    <dimen name="login_input_height">35dp</dimen>
+    <dimen name="paddingLeftSignupInput">5dp</dimen>
+    <dimen name="login_innercontainer_height">200dp</dimen>
+    <dimen name="txtsize_16sp">16sp</dimen>
+    <dimen name="txtsize_14sp">14sp</dimen>
+    <dimen name="radius_10dp">10dp</dimen>
+    <dimen name="stroke_height">1dp</dimen>
+    <dimen name="nav_footer_height">50dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="eightdp">8dp</dimen>
+    <dimen name="dashbord_button_height">100dp</dimen>
+    <dimen name="download_dialog_button_height">100dp</dimen>
+    <dimen name="profile_icon_hw">75dp</dimen>
+    <dimen name="live_updates_txt_size">25sp</dimen>
+    <dimen name="sample_video_live_feed_height">150dp</dimen>
+    <dimen name="txt_12siza">12sp</dimen>
+    <dimen name="txt_20siza">20sp</dimen>
+    <dimen name="txt_14siza">14sp</dimen>
+    <dimen name="txtsize_22sp">22sp</dimen>
+    <dimen name="download_dialog_size">300dp</dimen>
+    <dimen name="txtsize_18sp">18sp</dimen>
+</resources>

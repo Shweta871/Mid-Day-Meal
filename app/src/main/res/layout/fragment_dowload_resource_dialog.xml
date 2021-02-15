@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:minWidth="@dimen/download_dialog_size"
+    android:minHeight="@dimen/download_dialog_size"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="right"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/cancelIm"
+            android:src="@drawable/ic_cancel_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="@string/load_image_video_q"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/txtsize_18sp" />
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="@dimen/activity_horizontal_margin">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/eightdp">
+
+        <ImageButton
+            android:id="@+id/liveFeed"
+            android:layout_width="match_parent"
+            android:src="@drawable/ic_photo_camera_black_24dp"
+            android:layout_height="@dimen/download_dialog_button_height"
+            android:background="@drawable/done_button_bg" />
+
+
+
+            <TextView
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway_semibold"
+                android:text="@string/load_image"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/txtsize_16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/eightdp">
+
+        <ImageButton
+            android:id="@+id/pastRecords"
+            android:src="@drawable/ic_videocam_black_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/download_dialog_button_height"
+            android:background="@drawable/done_button_bg"
+            android:fontFamily="@font/raleway_semibold"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_semibold"
+            android:text="@string/load_video"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/txtsize_16sp" />
+
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

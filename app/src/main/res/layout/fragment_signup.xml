@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".ui.login.LoginFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/signup_innercontainer_height"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:background="@drawable/login_inner_container_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_input_height" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+                <TextView
+                    android:text="@string/email_str"
+                    android:textSize="@dimen/txtsize_14sp"
+                    android:fontFamily="@font/raleway_semibold"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:background="@drawable/login_et_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/paddingLeftSignupInput"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/email_im"
+                    android:src="@drawable/ic_email_or_24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_toRightOf="@+id/email_im"
+                    android:id="@+id/emailET"
+                    android:paddingLeft="@dimen/paddingLeftSignupInput"
+                    android:background="@null"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_input_height" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+                <TextView
+                    android:text="@string/sr_no_txt"
+                    android:textSize="@dimen/txtsize_14sp"
+                    android:fontFamily="@font/raleway_semibold"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:background="@drawable/login_et_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/paddingLeftSignupInput"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/user_im"
+                    android:src="@drawable/ic_person_or_24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_toRightOf="@+id/user_im"
+                    android:id="@+id/personET"
+                    android:paddingLeft="@dimen/paddingLeftSignupInput"
+                    android:background="@null"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_input_height" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+                <TextView
+                    android:text="@string/camera_code_str"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/txtsize_14sp"
+                    android:fontFamily="@font/raleway_semibold"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:background="@drawable/login_et_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/paddingLeftSignupInput"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/camera_linked_im"
+                    android:src="@drawable/ic_linked_camera_or_24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_toRightOf="@+id/camera_linked_im"
+                    android:id="@+id/linkedCameraET"
+                    android:paddingLeft="@dimen/paddingLeftSignupInput"
+                    android:background="@null"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_input_height" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+                <TextView
+                    android:text="@string/create_password_str"
+                    android:textSize="@dimen/txtsize_14sp"
+                    android:fontFamily="@font/raleway_semibold"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:background="@drawable/login_et_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/paddingLeftSignupInput"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/password_im"
+                    android:src="@drawable/ic_vpn_key_or_24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_toRightOf="@+id/password_im"
+                    android:id="@+id/passwordET"
+                    android:inputType="textPassword"
+                    android:paddingLeft="@dimen/paddingLeftSignupInput"
+                    android:background="@null"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_input_height" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+                <TextView
+                    android:text="@string/confirm_password"
+                    android:textSize="@dimen/txtsize_14sp"
+                    android:fontFamily="@font/raleway_semibold"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:background="@drawable/login_et_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/paddingLeftSignupInput"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/password_im"
+                    android:src="@drawable/ic_vpn_key_or_24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_toRightOf="@+id/password_im"
+                    android:id="@+id/confirmedPasswordET"
+                    android:paddingLeft="@dimen/paddingLeftSignupInput"
+                    android:background="@null"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:text="@string/signup_button_txt"
+                android:id="@+id/signupButton"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="@font/raleway_semibold"
+                android:background="@drawable/done_button_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

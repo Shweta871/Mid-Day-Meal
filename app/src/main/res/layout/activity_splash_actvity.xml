@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_above="@+id/bottomLayout"
+        android:background="@mipmap/splash_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_centerInParent="true"
+        android:layout_width="@dimen/splash_icon_hw"
+        android:layout_height="@dimen/splash_icon_hw"
+        android:src="@mipmap/logo" />
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_below="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:text="@string/mid_day_meal_app"
+            android:fontFamily="@font/raleway_semibold"
+            android:textSize="@dimen/splash_home_txt"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottomLayout"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/poweredbyColor"
+            android:id="@+id/poweredBy"
+            android:layout_toLeftOf="@+id/bottomImage"
+            android:text="@string/poweredby"
+            android:fontFamily="@font/raleway_semibold"
+            android:textSize="@dimen/poweredby_txtsize_12sp"
+            />
+        <ImageView
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:id="@+id/bottomImage"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/cisco_logo" />
+    </RelativeLayout>
+</RelativeLayout>

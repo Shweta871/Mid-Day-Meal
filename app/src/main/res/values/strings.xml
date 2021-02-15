@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">MidDayMeal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_login2">Login2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mid_day_meal_app">MID DAY MEAL APP</string>
+    <string name="poweredby">Powered by</string>
+    <string name="email_str">Email</string>
+    <string name="sr_no_txt">School Sr No</string>
+    <string name="camera_code_str">Camera code</string>
+    <string name="create_password_str">Create userEnteredPassword</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signup_button_txt">GO</string>
+    <string name="password_txt">Password</string>
+    <string name="my_account">My Account</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="home_txt">Home</string>
+    <string name="live_feed">Live Feed</string>
+    <string name="past_records">Past Records</string>
+    <string name="live_updates">LIVE UPDATES :</string>
+    <string name="send_alert">Send Alert</string>
+    <string name="feed_item_sample_string">08:04 - No of students detected : 37</string>
+    <string name="feed_item_sample_string2">No of students detected : 37</string>
+    <string name="txt_12siza">12sp</string>
+    <string name="reports">Report</string>
+    <string name="visual_proofs">Visual Proofs</string>
+    <string name="load_image">Load Image</string>
+    <string name="load_video">Load Video</string>
+    <string name="load_image_video_q">Load Video/Image</string>
+    <string name="feed_item_sample_string3">No of students reported : 50</string>
+</resources>
